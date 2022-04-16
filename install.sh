@@ -1,15 +1,12 @@
 #!/bin/bash
 
-# alias
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
-alias gs='git status'
-alias gb='git branch'
+# header
+echo "" >> ~/.bashrc
+echo "# set by dotfiles" >> ~/.bashrc
+echo "" >> ~/.bashrc
 
-# ls
-export LS_OPTIONS='--color=auto'
-alias ls='ls $LS_OPTIONS'
-alias ll='ls $LS_OPTIONS -hlrt'
-alias la='ls $LS_OPTIONS -hlrta'
-export CLICOLOR=1
+# alias
+echo "alias gs='git status'" >> ~/.bashrc
+echo "alias gb='git branch'" >> ~/.bashrc
+
+echo "export LS_OPTIONS='--color=auto'" >> ~/.bashrc
