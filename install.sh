@@ -6,6 +6,7 @@ echo "# set by dotfiles" >> ~/.bashrc
 echo "" >> ~/.bashrc
 
 # alias
+echo "alias dp='docker ps'" >> ~/.bashrc
 echo "alias gs='git status'" >> ~/.bashrc
 echo "alias gb='git branch'" >> ~/.bashrc
 
